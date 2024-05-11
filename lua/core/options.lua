@@ -20,3 +20,4 @@ o.autoindent = true
 o.smartindent = true
 o.expandtab = true
 o.cmdheight = 0
+o.laststatus = 3
