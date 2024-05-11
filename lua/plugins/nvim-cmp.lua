@@ -23,10 +23,6 @@ return {
           vim.fn["vsnip#anonymous"](args.body)
         end,
       },
-      window = {
-        completion = cmp.config.window.bordered({ border = "single" }),
-        documentation = cmp.config.window.bordered({ border = "single" }),
-      },
       sources = cmp.config.sources({
         { name = "nvim_lsp" },
         { name = "vsnip" },
