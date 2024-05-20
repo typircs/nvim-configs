@@ -2,8 +2,8 @@ vim.g.mapleader = " "
 
 vim.keymap.set("i", "jj", "<ESC>")
 vim.keymap.set("n", "<leader>nn", ":Neotree toggle<CR>")
-vim.keymap.set("n", "<A-h>", ":BufferPrevious<CR>")
-vim.keymap.set("n", "<A-l>", ":BufferNext<CR>")
+vim.keymap.set("n", "<A-h>", ":BufferLineCyclePrev<CR>")
+vim.keymap.set("n", "<A-l>", ":BufferLineCycleNext<CR>")
 vim.keymap.set("n", "sv", ":vsplit<CR>")
 vim.keymap.set("n", "sh", ":split<CR>")
 vim.keymap.set("n", "<leader>h", "<C-w>h")

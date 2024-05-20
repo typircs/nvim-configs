@@ -21,3 +21,7 @@ o.smartindent = true
 o.expandtab = true
 o.cmdheight = 0
 o.laststatus = 3
+
+vim.cmd [[
+autocmd BufWritePre * %s/\s\+$//e
+]]

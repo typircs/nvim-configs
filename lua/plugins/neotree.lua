@@ -6,5 +6,5 @@ return {
     "MunifTanjim/nui.nvim",
     "3rd/image.nvim",
   },
+  key = { "<leader>nn", mode="n" }
 }
-
