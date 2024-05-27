@@ -1,4 +1,4 @@
 # My Neovim Configs
 ## depend
-neovim nightly
-ripgrep
+’neovim nightly’
+’ripgrep’
