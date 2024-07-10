@@ -1,4 +1,5 @@
-# My Neovim Configs
+# nvim-configs
+my NeoVim config
 ## require
 `neovim nightly`  
 `ripgrep`  
