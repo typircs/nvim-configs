@@ -4,4 +4,5 @@ my NeoVim config
 `neovim nightly`  
 `ripgrep`  
 `node`  
+`deno`
 
